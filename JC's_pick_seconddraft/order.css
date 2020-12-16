@@ -1,0 +1,89 @@
+/*Noel Glamann
+December 8, 2020*/
+
+.box {
+	display: block;
+	width: 60%;
+	margin: 0;
+	float: left;
+	background: white;
+	border: solid 5px #3D7C66;
+}
+.box h2 {
+	display: block;
+	width: 100%;
+	color: white;
+	background: DarkSlateGray;
+	font-size: 45px;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content  {
+	display: block;
+	background: #DFDFDF;
+	width: 85%;
+	margin: auto;
+	padding: 5px;
+}
+
+.content h3 {
+	font-size: 25px;
+	font-weight: none;
+	color: DarkSlateGray;
+}
+.links a {
+	color: DarkSlateGray;
+	font-weight: strong;
+	font-size: 60px;
+	margin: auto;
+	text-decoration: none;
+}
+.links a:hover{
+	color: LightSlateGray;
+}
+
+.links {
+	text-align: center;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-bottom: solid 1px DarkSlateGray;
+}
+
+.right {
+	width: 18%;
+	float: left;
+}
+.right img{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 30px;
+	border: 2px solid white;
+}
+
+.left {
+	width: 18%;
+	float: left;
+}
+.left img{
+	margin-left: 10%;
+	width: 80%;
+	margin-top: 30px;
+	border: 2px solid white;
+}
+
+.forms {
+	display: block;
+	text-align: center;
+}
+
+.forms a{
+	text-decoration: none;
+	color: DarkSlateGray;
+	font-size: 20px;
+}
+.forms a:hover{
+	color: LightSlateGray;
+}
